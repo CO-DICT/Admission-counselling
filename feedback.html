@@ -1,0 +1,172 @@
+﻿<html>
+<head>
+<link rel="stylesheet" type="text/css" href="enquiry.css">
+</head>
+    <style>
+        .quotes2
+{
+width:750px;
+background:#00ffff;
+margin-left:250px;
+height:250px;
+}
+        .search
+{
+width:600px;
+background:white;
+float:center;
+margin-left:250px;
+padding:10px;
+border-radius: 25px;
+text-align:center;
+}
+        .head{
+height:250px;
+background:url("head.jpg");
+border:5px solid powderblue;
+padding:2px;
+}</style>
+
+<body>
+
+	<div class="wrapper">
+	<div class="head">
+			<div class="mid">
+				
+                <br><br><br><br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="heading.png">
+              <!--   <span style="color:black";><i><font size="30" face="arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>ADMISSION COUNSELLING</b></font></span> -->	</div>
+			</div>
+		<div class="scrollmenu">
+  <a href="p1.html">Home</a>
+<a href="LOGIN.html">Admin login</a>
+  <a href="enquiry.html">Enquiry</a>
+  <a href="about.html">About</a>
+            
+	<a href="feedback.html">Feedback</a>
+</div>
+		
+<div class="quotes">
+			<div class="quotes1">
+			<img src="images (2).jpeg" height="250"; width="250";>
+			</div>
+			<div class="quotes2"> <span style="color:black";><i><font size="6"><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WELCOME TO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADMISSION &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COUNSELLING</h1></font></i></span>
+			</div>
+		</div>
+ 
+
+		<h1>
+		<div class="search">
+		<form action="feedback.php" method="post">
+			<table style="margin-left:10px;border-radius:15px;">
+			<tbody>
+			<tr>
+                <td><span style="color:red;"><strong><h1>FEEDBACK</h1></strong></span></td>
+			</tr>
+		<tr>
+		<td><h2>RESPONSE_TIME&nbsp;&nbsp;&nbsp;</h2></td>
+		<td><h2><select name="RESPONSE_TIME" required>
+       		<option value="">--select--</option>
+		<option value="Excellent">Excellent</option>
+		<option value="Very_Good">Very_Good</option>
+  		<option value="Good">Good</option>
+  		<option value="Average">Average</option>
+		<option value="Poor">Poor</option>
+		<option value="Unsatisfied">Unsatisfied</option>
+            </select></h2></td>
+		</tr>
+		<h2>
+		<tr>
+		<td><h2>INTERACTIVITY&nbsp;&nbsp;&nbsp;</h2></td>
+		<td><h1><select name=INTERACTIVITY required>
+       		<option value="">--select--</option>
+		<option value="Excellent">Excellent</option>
+		<option value="Very_Good">Very_Good</option>
+  		<option value="Good">Good</option>
+  		<option value="Average">Average</option>
+		<option value="Poor">Poor</option>
+		<option value="Unsatisfied">Unsatisfied</option>
+            </select></h1></td>
+		</tr>
+                </h2>
+		<tr>
+		<td><h2>INFORMATION_AVAIL&nbsp;&nbsp;&nbsp;</h2></td>
+		<td><h2><select name=INFORMATION_AVAIL required>
+       		<option value="">--select--</option>
+		<option value="Excellent">Excellent</option>
+		<option value="Very_Good">Very_Good</option>
+  		<option value="Good">Good</option>
+  		<option value="Average">Average</option>
+		<option value="Poor">Poor</option>
+		<option value="Unsatisfied">Unsatisfied</option>
+            </select></h2></td>
+		</tr>
+                <tr>
+        <td><h2>OVERALL_RATING&nbsp;&nbsp;&nbsp;</h2></td>
+		<td><h2><select name=OVERALL_RATING required>
+       		<option value="">--select--</option>
+            
+		<option value="✪✪✪✪✪">✪✪✪✪✪</option>
+  		<option value="✪✪✪✪">✪✪✪✪</option>
+  		<option value="✪✪✪">✪✪✪</option>
+		<option value="✪✪">✪✪</option>
+		<option value="✪">✪</option>
+            </select></h2></td>
+                    
+                </tr><tr><td><h2>SUGGESTION&nbsp;&nbsp;&nbsp;</h2></td>
+                <td><textarea name="SUGGESTION" rows="2" cols="20" id="ContentPlaceHolder1_txtcomments" class="textbox" style="height:75px;width:282px;"></textarea> </td>
+		</tr>
+		<tr>
+		<td></td>
+		
+		</tr>
+		
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="SUBMIT"> </td>
+                </tr>
+		</tbody>
+		</table>
+            </form>
+		</div>
+		</h1>
+    
+		<div class="gif">
+    		<div class="bodyup">
+			<img class="myslides" src="12.jpg" alt="" width="1000" height="450">
+			<img class="myslides" src="22.jpg" alt="" width="1000" height="450">
+			<img class="myslides" src="image1.jpg" alt="" width="1000" height="450">
+			<img class="myslides" src="image.jpg" alt="" width="1000" height="450">
+			<img class="myslides" src="Grads.jpg" alt="" width="1000" height="450">
+			<img class="myslides" src="11.jpg" alt="" width="1000" height="450">
+			<script>
+			var slideIndex = 0;
+			carousel();
+
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("myslides");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none"; 
+				}
+				slideIndex++;
+				if (slideIndex > x.length) {slideIndex = 1} 
+				x[slideIndex-1].style.display = "block"; 
+				setTimeout(carousel, 2000); // Change image every 2 seconds
+			}
+			</script></div>
+		</div>
+		<div class="developer">
+			<span style="color:silver";>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Developed and Designed by N & N
+PVT. LTD.
+</span>
+		</div>
+
+	</div>
+
+
+
+
+</body>
+
+</html>

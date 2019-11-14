@@ -1,0 +1,81 @@
+﻿.wrapper
+{
+width:1000px;
+background:black;
+margin:0 auto;
+float:center;
+height:1230px;
+}
+
+.head{
+height:250px;
+background:url("head.jpg");
+border:5px solid powderblue;
+padding:2px;
+}
+.mid{
+margin-top:100px;
+}
+.scrollmenu {
+    background-color: purple;
+    overflow-left:150;
+    white-space: nowrap;
+}
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.quotes
+{
+width:1000px;
+background:red;
+float:center;
+height:250px;
+}
+.quotes1
+{
+width:250px;
+background:red;
+float:left;
+height:250px;
+}
+.quotes2
+{
+width:750px;
+background:yellow;
+margin-left:250px;
+height:250px;
+}
+}
+.search
+{
+width:750px;
+    height: 500PX;
+margin-left: 250px;
+border-radius: 5px;
+padding:10px;
+}
+.gif
+{
+width:1000px;
+background:green;
+float:center;
+margin-right:50px;
+height:450px;
+
+}
+
+.developer
+{
+width:1000px;
+background:black;
+float:center;
+height:20px;
+}

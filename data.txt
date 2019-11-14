@@ -1,0 +1,36 @@
+
+
+<?php
+$select state=$_POST["select state"];
+$select course=$_POST["select course"];
+$servername="localhost";
+$username="subham";
+$password="HPlap@@123";
+$dbname="nitesh";
+
+$conn=new mysqli($servername,$username,$password,$dbname);//mysqli functionname to connect mysql
+if ($conn->connect_error){
+    die("Connection failed");
+}
+$sql="select state,select state,Enter college Name.,Enter seats for CSE ,Enter seats for ISE,Enter seats for CIVIL.,Enter seats for MECH.,Enter seats for ECE.,Enter seats for EEE. from details where select_state='select_course'&select_state='select_course'";
+$result=$conn->query($sql);
+if ($result->num_rows > 0){
+    
+    while($row = $result->fetch_assoc()){
+        echo "<tr>";
+        echo "<td><strong>".$row["select state"]."</strong></td>";
+        echo "<td><strong>".$row["select state"]."</strong></td>";
+        echo "<td><strong>".$row["Enter college Name."]."</strong></td>";
+        echo "<td><strong>".$row["Enter seats for CSE"]."</strong></td>";
+        echo "<td><strong>".$row["Enter seats for ISE"]."</strong></td>";
+        echo "<td><strong>".$row["Enter seats for CIVIL"]."</strong></td>";
+echo "<td><strong>".$row["Enter seats for MECH."]."</strong></td>";
+echo "<td><strong>".$row["Enter seats for ECE."]."</strong></td>";
+echo "<td><strong>".$row["Enter seats for EEE."]."</strong></td>";
+        echo "</tr>";
+    }
+}
+        $conn->close();
+
+?>
+ 
